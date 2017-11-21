@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "好きなモノでいっぱいに！ | 新しいタブ",
+  "version": "1.5",
+  "description": "新しいタブを好きなモノでいっぱいにします。ランダムで画像を取得して、隙間なく敷き詰めます。",
+  "icons": {
+    "128": "icon.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
